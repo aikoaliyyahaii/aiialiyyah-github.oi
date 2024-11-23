@@ -1,0 +1,49 @@
+
+.jumbotron {
+    padding-top: 6rem;
+
+}
+
+#projects {
+    background-color: #abfef2;  
+}
+section{
+    padding-top: 5rem;
+}
+.nav-link{
+    position: relative;
+    justify-content: right;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    color:beige;
+    font-size: 18px;
+    letter-spacing: 0,5px;
+    padding: 0 10px;
+
+}
+
+.nav-link:after{
+    content:"" ;
+    position: absolute;
+    background-color: beige;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.nav-link:after{
+    color: beige;
+}
+
+.nav-link:hover:after{
+    width: 100%;
+}
+.card{
+    box-shadow: 10%;
+}
+a{
+    gap: 20px;
+    row-gap: 10px;
+} 
